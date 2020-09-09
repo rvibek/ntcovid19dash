@@ -18,7 +18,7 @@ psycopg2
 click==6.6 
 itsdangerous==0.24 
 plotly==1.11.0 
-python-dateutil==2.5.3 
-pytz==2016.4 
+python-dateutil==2.7.3
+pytz==2017.2
 requests==2.10.0 
-six==1.10.0
+six==1.11.0

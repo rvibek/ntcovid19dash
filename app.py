@@ -140,7 +140,7 @@ def update_graph(my_dropdown):
                                locations="District", featureidkey="properties.District",
                                hover_name='District',
                                hover_data=["Total Cases", "Death", "Recovered", "Under Treatment"], center={"lat": 28.5, "lon": 84},
-                               mapbox_style="carto-positron",
+                               # mapbox_style="carto-positron",
                                zoom=6,
                                color_continuous_scale="YlOrRd")
     fig.update_geos(fitbounds="locations", visible=False)

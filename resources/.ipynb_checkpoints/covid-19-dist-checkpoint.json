@@ -1,0 +1,695 @@
+[
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Ilam",
+    "Total Cases": 98,
+    "Recovered": 96,
+    "Death": 0,
+    "Under Treatment": 2
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Udayapur",
+    "Total Cases": 141,
+    "Recovered": 123,
+    "Death": 1,
+    "Under Treatment": 17
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Okhaldhunga",
+    "Total Cases": 70,
+    "Recovered": 29,
+    "Death": 0,
+    "Under Treatment": 41
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Khotang",
+    "Total Cases": 44,
+    "Recovered": 30,
+    "Death": 0,
+    "Under Treatment": 14
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Jhapa",
+    "Total Cases": 723,
+    "Recovered": 532,
+    "Death": 4,
+    "Under Treatment": 187
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Taplejung",
+    "Total Cases": 20,
+    "Recovered": 19,
+    "Death": 0,
+    "Under Treatment": 1
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Terhathum",
+    "Total Cases": 30,
+    "Recovered": 19,
+    "Death": 0,
+    "Under Treatment": 11
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Dhankuta",
+    "Total Cases": 53,
+    "Recovered": 23,
+    "Death": 0,
+    "Under Treatment": 30
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Panchthar",
+    "Total Cases": 27,
+    "Recovered": 12,
+    "Death": 0,
+    "Under Treatment": 15
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Bhojpur",
+    "Total Cases": 21,
+    "Recovered": 11,
+    "Death": 0,
+    "Under Treatment": 10
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Morang",
+    "Total Cases": 2043,
+    "Recovered": 1683,
+    "Death": 22,
+    "Under Treatment": 338
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Sankhuwasabha",
+    "Total Cases": 44,
+    "Recovered": 14,
+    "Death": 0,
+    "Under Treatment": 30
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Sunsari",
+    "Total Cases": 1186,
+    "Recovered": 509,
+    "Death": 7,
+    "Under Treatment": 670
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 1",
+    "District": "Solukhumbu",
+    "Total Cases": 14,
+    "Recovered": 13,
+    "Death": 0,
+    "Under Treatment": 1
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 2",
+    "District": "Dhanusa",
+    "Total Cases": 1818,
+    "Recovered": 1306,
+    "Death": 15,
+    "Under Treatment": 497
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 2",
+    "District": "Parsa",
+    "Total Cases": 2543,
+    "Recovered": 2096,
+    "Death": 42,
+    "Under Treatment": 405
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 2",
+    "District": "Bara",
+    "Total Cases": 1185,
+    "Recovered": 759,
+    "Death": 14,
+    "Under Treatment": 412
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 2",
+    "District": "Mahottari",
+    "Total Cases": 1409,
+    "Recovered": 1180,
+    "Death": 11,
+    "Under Treatment": 218
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 2",
+    "District": "Rautahat",
+    "Total Cases": 1996,
+    "Recovered": 1776,
+    "Death": 6,
+    "Under Treatment": 214
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 2",
+    "District": "Saptari",
+    "Total Cases": 928,
+    "Recovered": 714,
+    "Death": 7,
+    "Under Treatment": 207
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 2",
+    "District": "Sarlahi",
+    "Total Cases": 2121,
+    "Recovered": 1462,
+    "Death": 5,
+    "Under Treatment": 654
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 2",
+    "District": "Siraha",
+    "Total Cases": 695,
+    "Recovered": 420,
+    "Death": 8,
+    "Under Treatment": 267
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Kathmandu",
+    "Total Cases": 7613,
+    "Recovered": 2954,
+    "Death": 42,
+    "Under Treatment": 4617
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Kavrepalanchok",
+    "Total Cases": 302,
+    "Recovered": 126,
+    "Death": 2,
+    "Under Treatment": 174
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Chitawan",
+    "Total Cases": 1105,
+    "Recovered": 410,
+    "Death": 13,
+    "Under Treatment": 682
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Dolakha",
+    "Total Cases": 90,
+    "Recovered": 44,
+    "Death": 3,
+    "Under Treatment": 43
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Dhading",
+    "Total Cases": 293,
+    "Recovered": 190,
+    "Death": 2,
+    "Under Treatment": 101
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Nuwakot",
+    "Total Cases": 105,
+    "Recovered": 74,
+    "Death": 0,
+    "Under Treatment": 31
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Bhaktapur",
+    "Total Cases": 819,
+    "Recovered": 301,
+    "Death": 10,
+    "Under Treatment": 508
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Makwanpur",
+    "Total Cases": 754,
+    "Recovered": 309,
+    "Death": 7,
+    "Under Treatment": 438
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Rasuwa",
+    "Total Cases": 18,
+    "Recovered": 15,
+    "Death": 1,
+    "Under Treatment": 2
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Ramechhap",
+    "Total Cases": 105,
+    "Recovered": 61,
+    "Death": 0,
+    "Under Treatment": 44
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Lalitpur",
+    "Total Cases": 1010,
+    "Recovered": 462,
+    "Death": 7,
+    "Under Treatment": 541
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Sindhupalchok",
+    "Total Cases": 118,
+    "Recovered": 92,
+    "Death": 4,
+    "Under Treatment": 22
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Bagmati",
+    "District": "Sindhuli",
+    "Total Cases": 94,
+    "Recovered": 59,
+    "Death": 0,
+    "Under Treatment": 35
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Gandaki",
+    "District": "Kaski",
+    "Total Cases": 542,
+    "Recovered": 315,
+    "Death": 8,
+    "Under Treatment": 219
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Gandaki",
+    "District": "Gorkha",
+    "Total Cases": 274,
+    "Recovered": 152,
+    "Death": 3,
+    "Under Treatment": 119
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Gandaki",
+    "District": "Tanahu",
+    "Total Cases": 336,
+    "Recovered": 242,
+    "Death": 3,
+    "Under Treatment": 91
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Gandaki",
+    "District": "Nawalparasi East",
+    "Total Cases": 586,
+    "Recovered": 422,
+    "Death": 0,
+    "Under Treatment": 164
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Gandaki",
+    "District": "Parbat",
+    "Total Cases": 118,
+    "Recovered": 111,
+    "Death": 0,
+    "Under Treatment": 7
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Gandaki",
+    "District": "Manang",
+    "Total Cases": 3,
+    "Recovered": 3,
+    "Death": 0,
+    "Under Treatment": 0
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Gandaki",
+    "District": "Mustang",
+    "Total Cases": 1,
+    "Recovered": 1,
+    "Death": 0,
+    "Under Treatment": 0
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Gandaki",
+    "District": "Myagdi",
+    "Total Cases": 51,
+    "Recovered": 49,
+    "Death": 1,
+    "Under Treatment": 1
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Gandaki",
+    "District": "Lamjung",
+    "Total Cases": 298,
+    "Recovered": 126,
+    "Death": 0,
+    "Under Treatment": 172
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Gandaki",
+    "District": "Baglung",
+    "Total Cases": 325,
+    "Recovered": 294,
+    "Death": 1,
+    "Under Treatment": 30
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Gandaki",
+    "District": "Syangja",
+    "Total Cases": 355,
+    "Recovered": 323,
+    "Death": 2,
+    "Under Treatment": 30
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 5",
+    "District": "Arghakhanchi",
+    "Total Cases": 397,
+    "Recovered": 369,
+    "Death": 2,
+    "Under Treatment": 26
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 5",
+    "District": "Kapilbastu",
+    "Total Cases": 1174,
+    "Recovered": 1061,
+    "Death": 6,
+    "Under Treatment": 107
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 5",
+    "District": "Gulmi",
+    "Total Cases": 442,
+    "Recovered": 381,
+    "Death": 3,
+    "Under Treatment": 58
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 5",
+    "District": "Dang",
+    "Total Cases": 890,
+    "Recovered": 713,
+    "Death": 1,
+    "Under Treatment": 176
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 5",
+    "District": "Nawalparasi West",
+    "Total Cases": 293,
+    "Recovered": 185,
+    "Death": 5,
+    "Under Treatment": 49
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 5",
+    "District": "Palpa",
+    "Total Cases": 631,
+    "Recovered": 585,
+    "Death": 3,
+    "Under Treatment": 43
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 5",
+    "District": "Pyuthan",
+    "Total Cases": 464,
+    "Recovered": 414,
+    "Death": 2,
+    "Under Treatment": 48
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 5",
+    "District": "Bardiya",
+    "Total Cases": 440,
+    "Recovered": 332,
+    "Death": 1,
+    "Under Treatment": 107
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 5",
+    "District": "Banke",
+    "Total Cases": 1298,
+    "Recovered": 939,
+    "Death": 8,
+    "Under Treatment": 351
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 5",
+    "District": "Rukum East",
+    "Total Cases": 27,
+    "Recovered": 25,
+    "Death": 0,
+    "Under Treatment": 2
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 5",
+    "District": "Rupandehi",
+    "Total Cases": 1426,
+    "Recovered": 830,
+    "Death": 15,
+    "Under Treatment": 581
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Province 5",
+    "District": "Rolpa",
+    "Total Cases": 91,
+    "Recovered": 85,
+    "Death": 0,
+    "Under Treatment": 6
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Karnali",
+    "District": "Kalikot",
+    "Total Cases": 116,
+    "Recovered": 91,
+    "Death": 0,
+    "Under Treatment": 25
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Karnali",
+    "District": "Jajarkot",
+    "Total Cases": 68,
+    "Recovered": 49,
+    "Death": 0,
+    "Under Treatment": 19
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Karnali",
+    "District": "Jumla",
+    "Total Cases": 222,
+    "Recovered": 135,
+    "Death": 0,
+    "Under Treatment": 87
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Karnali",
+    "District": "Dolpa",
+    "Total Cases": 6,
+    "Recovered": 5,
+    "Death": 1,
+    "Under Treatment": 0
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Karnali",
+    "District": "Dailekh",
+    "Total Cases": 1064,
+    "Recovered": 1031,
+    "Death": 1,
+    "Under Treatment": 32
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Karnali",
+    "District": "Mugu",
+    "Total Cases": 13,
+    "Recovered": 13,
+    "Death": 0,
+    "Under Treatment": 0
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Karnali",
+    "District": "Rukum West",
+    "Total Cases": 76,
+    "Recovered": 75,
+    "Death": 0,
+    "Under Treatment": 1
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Karnali",
+    "District": "Salyan",
+    "Total Cases": 320,
+    "Recovered": 320,
+    "Death": 0,
+    "Under Treatment": 0
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Karnali",
+    "District": "Surkhet",
+    "Total Cases": 884,
+    "Recovered": 686,
+    "Death": 3,
+    "Under Treatment": 195
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Karnali",
+    "District": "Humla",
+    "Total Cases": 5,
+    "Recovered": 5,
+    "Death": 0,
+    "Under Treatment": 0
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Sudurpaschim",
+    "District": "Achham",
+    "Total Cases": 935,
+    "Recovered": 852,
+    "Death": 2,
+    "Under Treatment": 81
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Sudurpaschim",
+    "District": "Kanchanpur",
+    "Total Cases": 716,
+    "Recovered": 649,
+    "Death": 0,
+    "Under Treatment": 67
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Sudurpaschim",
+    "District": "Kailali",
+    "Total Cases": 1821,
+    "Recovered": 1514,
+    "Death": 6,
+    "Under Treatment": 301
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Sudurpaschim",
+    "District": "Dadeldhura",
+    "Total Cases": 335,
+    "Recovered": 327,
+    "Death": 0,
+    "Under Treatment": 8
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Sudurpaschim",
+    "District": "Doti",
+    "Total Cases": 980,
+    "Recovered": 942,
+    "Death": 0,
+    "Under Treatment": 38
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Sudurpaschim",
+    "District": "Darchula",
+    "Total Cases": 63,
+    "Recovered": 50,
+    "Death": 0,
+    "Under Treatment": 13
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Sudurpaschim",
+    "District": "Bajhang",
+    "Total Cases": 477,
+    "Recovered": 310,
+    "Death": 1,
+    "Under Treatment": 166
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Sudurpaschim",
+    "District": "Bajura",
+    "Total Cases": 625,
+    "Recovered": 623,
+    "Death": 1,
+    "Under Treatment": 1
+  },
+  {
+    "Date": "2020-08-21 00:00:00",
+    "Province": "Sudurpaschim",
+    "District": "Baitadi",
+    "Total Cases": 396,
+    "Recovered": 325,
+    "Death": 0,
+    "Under Treatment": 71
+  }
+]

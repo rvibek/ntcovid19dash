@@ -18,6 +18,8 @@ import plotly.graph_objects as go
 external_stylesheets = [dbc.themes.FLATLY]
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
+
 
 df = pd.read_json('resources/covid-19-dist.json')
 df['District'] = df['District'].apply(lambda x: x.upper())
@@ -34,8 +36,8 @@ card_total = [
         [
             html.H5("Total Cases", className="card-title"),
             html.P(highlights['nepal']['positive'],
-                className="card-text",
-            ),
+                   className="card-text",
+                   ),
         ]
     ),
 ]
@@ -52,7 +54,7 @@ card_infected = [
     ),
 ]
 
-card_recovered= [
+card_recovered = [
     dbc.CardBody(
         [
             html.H5("Recovered", className="card-title"),
@@ -75,9 +77,6 @@ card_deaths = [
 ]
 
 
-
-
-
 app.layout = html.Div([
     html.Div([
 
@@ -97,7 +96,7 @@ app.layout = html.Div([
             clearable=False,
             style={"width": "45%"}
         ),
-        
+
 
     ]),
     html.Br(),
@@ -108,7 +107,7 @@ app.layout = html.Div([
                 [
                     dbc.Col(dbc.Card(card_total,
                                      color="secondary", inverse=True)),
-                    dbc.Col(dbc.Card(card_infected, color="secondary", inverse=True) ),
+                    dbc.Col(dbc.Card(card_infected, color="secondary", inverse=True)),
                     dbc.Col(dbc.Card(card_recovered,
                                      color="secondary", inverse=True)),
                     dbc.Col(dbc.Card(card_deaths,
@@ -120,8 +119,8 @@ app.layout = html.Div([
 
         ]
     ),
-  
-   
+
+
     html.Div([
         dcc.Graph(id='the_graph')
     ]),
@@ -138,21 +137,19 @@ def update_graph(my_dropdown):
     dff = df
 
     fig = px.choropleth_mapbox(dff, geojson=geojson, color=my_dropdown,
-                                    locations="District", featureidkey="properties.District",
-                                    hover_name='District',
-                                    hover_data=["Total Cases", "Death", "Recovered", "Under Treatment"], center={"lat": 28.5, "lon": 84},
-                                    mapbox_style="carto-positron", 
-                                    zoom=6,
-                                    color_continuous_scale="YlOrRd")
+                               locations="District", featureidkey="properties.District",
+                               hover_name='District',
+                               hover_data=["Total Cases", "Death", "Recovered", "Under Treatment"], center={"lat": 28.5, "lon": 84},
+                               mapbox_style="carto-positron",
+                               zoom=6,
+                               color_continuous_scale="YlOrRd")
     fig.update_geos(fitbounds="locations", visible=False)
-
 
     fig.update_layout(
         mapbox_style="white-bg",
         margin={"r": 0, "t": 0, "l": 0, "b": 0}
-        )
+    )
 
-    
     return (fig)
 
 

@@ -121,10 +121,10 @@ app.layout = html.Div([
     ),
 
 
-    
-        dcc.Graph(id='the_graph')
-  
-  
+
+    dcc.Graph(id='the_graph')
+
+
 ])
 
 #---------------------------------------------------------------
@@ -143,7 +143,7 @@ def update_graph(my_dropdown):
                                hover_name='District',
                                hover_data=["Total Cases", "Death", "Recovered", "Under Treatment"], center={"lat": 28.5, "lon": 84},
                                # mapbox_style="carto-positron",
-                               # zoom=6,
+                               zoom=6,
                                color_continuous_scale="YlOrRd"
                                )
     fig.update_geos(fitbounds="locations", visible=False)

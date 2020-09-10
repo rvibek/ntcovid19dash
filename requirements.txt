@@ -17,7 +17,7 @@ gunicorn==19.9.0
 psycopg2
 click==6.6 
 itsdangerous==0.24 
-plotly==4.4.1
+plotly==4.5.4
 python-dateutil==2.7.3
 pytz==2017.2
 requests==2.10.0 

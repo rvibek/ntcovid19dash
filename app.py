@@ -37,7 +37,7 @@ with open('resources/highlights.json') as f:
 card_total = [
     dbc.CardBody(
         [
-            html.H4("Total Cases", className="card-title text-right"),
+            html.H5("Total Cases", className="card-title text-right"),
             html.P(highlights['nepal']['positive'],
                    className="card-text text-right lead lead",
                    ),
@@ -50,7 +50,7 @@ card_total = [
 card_infected = [
     dbc.CardBody(
         [
-            html.H4("Total Infected", className="card-title text-right"),
+            html.H5("Total Infected", className="card-title text-right"),
             html.P(highlights['nepal']['extra2'],
                    className="card-text text-right lead lead",
                    ),
@@ -61,7 +61,7 @@ card_infected = [
 card_recovered = [
     dbc.CardBody(
         [
-            html.H4("Recovered", className="card-title text-right"),
+            html.H5("Recovered", className="card-title text-right"),
             html.P(highlights['nepal']['extra1'],
                    className="card-text text-right lead",
                    ),
@@ -72,7 +72,7 @@ card_recovered = [
 card_deaths = [
     dbc.CardBody(
         [
-            html.H4("Deaths", className="card-title text-right"),
+            html.H5("Deaths", className="card-title text-right"),
             html.P(highlights['nepal']['deaths'],
                    className="card-text text-right lead",
                    ),

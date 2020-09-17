@@ -34,51 +34,51 @@ with open('resources/highlights.json') as f:
     highlights = json.load(f)
 
 #---------------------------------------------------------------
-card_total = [
-    dbc.CardBody(
-        [
-            html.H6("Total Cases", className="card-title text-right"),
-            html.P(highlights['nepal']['positive'],
-                   className="card-text text-right lead lead",
-                   ),
+# card_total = [
+#     html.DivBody(
+#         [
+#             html.H5("Total Cases", className="card-title text-center"),
+#             html.P(highlights['nepal']['positive'],
+#                    className="card-text text-center lead lead",
+#                    ),
 
-        ]
-    ),
-]
+#         ]
+#     ),
+# ]
 
 
-card_infected = [
-    dbc.CardBody(
-        [
-            html.H6("Total Infected", className="card-title text-right"),
-            html.P(highlights['nepal']['extra2'],
-                   className="card-text text-right lead lead",
-                   ),
-        ]
-    ),
-]
+# card_infected = [
+#     html.DivBody(
+#         [
+#             html.H5("Total Infected", className="card-title text-center"),
+#             html.P(highlights['nepal']['extra2'],
+#                    className="card-text text-center lead lead",
+#                    ),
+#         ]
+#     ),
+# ]
 
-card_recovered = [
-    dbc.CardBody(
-        [
-            html.H6("Recovered", className="card-title text-right"),
-            html.P(highlights['nepal']['extra1'],
-                   className="card-text text-right lead",
-                   ),
-        ]
-    ),
-]
+# card_recovered = [
+#     html.DivBody(
+#         [
+#             html.H5("Recovered", className="card-title text-center"),
+#             html.P(highlights['nepal']['extra1'],
+#                    className="card-text text-center lead",
+#                    ),
+#         ]
+#     ),
+# ]
 
-card_deaths = [
-    dbc.CardBody(
-        [
-            html.H6("Deaths", className="card-title text-right"),
-            html.P(highlights['nepal']['deaths'],
-                   className="card-text text-right lead",
-                   ),
-        ]
-    ),
-]
+# card_deaths = [
+#     html.DivBody(
+#         [
+#             html.H5("Deaths", className="card-title text-center"),
+#             html.P(highlights['nepal']['deaths'],
+#                    className="card-text text-center lead",
+#                    ),
+#         ]
+#     ),
+# ]
 
 
 app.layout = html.Div([
@@ -109,15 +109,36 @@ app.layout = html.Div([
         [
             dbc.Row(
                 [
-                    dbc.Col(dbc.Card(card_total,
-                                     color="secondary", inverse=True)),
-                    dbc.Col(dbc.Card(card_infected, color="secondary", inverse=True)),
-                    dbc.Col(dbc.Card(card_recovered,
-                                     color="secondary", inverse=True)),
-                    dbc.Col(dbc.Card(card_deaths,
-                                     color="secondary", inverse=True)),
+                    dbc.Col(html.Div([
+                        html.H5("Total Cases", className="card-title text-center"),
+                        html.P(highlights['nepal']['positive'],
+                               className="card-text text-center lead lead",
+                               ),
+
+                    ]),
+                        md=3, className="alert alert-warning mw-80  p-3 border border-light"),
+                    dbc.Col(html.Div([
+                        html.H5("Total Infected", className="card-title text-center"),
+                        html.P(highlights['nepal']['extra2'],
+                               className="card-text text-center lead lead",
+                               ),
+                    ]), md=3, className="alert alert-warning mw-80  p-3 border border-light"),
+                    dbc.Col(html.Div([
+                        html.H5("Recovered", className="card-title text-center"),
+                        html.P(highlights['nepal']['extra1'],
+                               className="card-text text-center lead",
+                               ),
+                    ]),
+                        md=3, className="alert alert-warning mw-80  p-3 border border-light"),
+                    dbc.Col(html.Div([
+                        html.H5("Deaths", className="card-title text-center"),
+                        html.P(highlights['nepal']['deaths'],
+                               className="card-text text-center lead ",
+                               ),
+                    ]),
+                        md=3, className="alert alert-warning mw-80  p-3 border border-light"),
                 ],
-                className="mb-3",
+
             ),
 
 
@@ -162,4 +183,4 @@ def update_graph(my_dropdown):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)

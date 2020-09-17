@@ -116,13 +116,13 @@ app.layout = html.Div([
                                ),
 
                     ]),
-                        md=3, className="alert alert-warning mw-80  p-3 border border-light"),
+                        md=3, className="alert alert-warning mw-80  p-3 h-50 border border-light"),
                     dbc.Col(html.Div([
                         html.H5("Total Infected", className="card-title text-center"),
                         html.P(highlights['nepal']['extra2'],
                                className="card-text text-center lead lead",
                                ),
-                    ]), md=3, className="alert alert-warning mw-80  p-3 border border-light"),
+                    ]), md=3, className="alert alert-warning mw-80  p-3  mh-50 border border-light"),
                     dbc.Col(html.Div([
                         html.H5("Recovered", className="card-title text-center"),
                         html.P(highlights['nepal']['extra1'],
